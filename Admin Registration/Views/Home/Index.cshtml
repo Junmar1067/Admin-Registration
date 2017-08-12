@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Admin_Registration.Models.Account>
+
+
+@Html.ActionLink("Add", "Add")
+
+<form method="get" action="@Url.Action("Search", "Home")">
+    <label>Search</label>
+    <input type="text" name="search" />
+    <button type="submit">Perform search</button>
+</form>
+
+
+<br/>                                       
+    
+@foreach (var item in Model)
+{
+    
+    @Html.DisplayFor(asdf => item.Id);
+    <text>&nbsp;</text>
+    @Html.DisplayFor(asdf => item.Name);
+    <text>&nbsp;</text>
+    @Html.DisplayFor(asdf => item.Age);
+    <text>&nbsp;</text>
+
+    @Html.ActionLink("Edit", "Edit", new { Id = item.Id})
+    <text>&nbsp;</text>
+
+    @Html.ActionLink("Delete", "Delete", new { Id = item.Id })
+    <br />
+
+}
