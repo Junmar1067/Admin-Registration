@@ -32,3 +32,37 @@ D:\Admin Registration\Admin Registration\bin\System.Web.WebPages.Razor.xml
 D:\Admin Registration\Admin Registration\obj\Debug\ResolveAssemblyReference.cache
 D:\Admin Registration\Admin Registration\obj\Debug\Admin Registration.dll
 D:\Admin Registration\Admin Registration\obj\Debug\Admin Registration.pdb
+C:\Admin-Registration\Admin Registration\bin\Admin Registration.dll
+C:\Admin-Registration\Admin Registration\bin\Admin Registration.pdb
+C:\Admin-Registration\Admin Registration\bin\Antlr3.Runtime.dll
+C:\Admin-Registration\Admin Registration\bin\EntityFramework.dll
+C:\Admin-Registration\Admin Registration\bin\Microsoft.Web.Infrastructure.dll
+C:\Admin-Registration\Admin Registration\bin\Newtonsoft.Json.dll
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.dll
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.Formatting.dll
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.WebRequest.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Http.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Http.WebHost.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Mvc.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Optimization.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Providers.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.Razor.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.Deployment.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.dll
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.Razor.dll
+C:\Admin-Registration\Admin Registration\bin\WebGrease.dll
+C:\Admin-Registration\Admin Registration\bin\EntityFramework.xml
+C:\Admin-Registration\Admin Registration\bin\Newtonsoft.Json.xml
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.xml
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.Formatting.xml
+C:\Admin-Registration\Admin Registration\bin\System.Net.Http.WebRequest.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.Http.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.Http.WebHost.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.Mvc.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.Razor.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.Deployment.xml
+C:\Admin-Registration\Admin Registration\bin\System.Web.WebPages.Razor.xml
+C:\Admin-Registration\Admin Registration\obj\Debug\ResolveAssemblyReference.cache
+C:\Admin-Registration\Admin Registration\obj\Debug\Admin Registration.dll
+C:\Admin-Registration\Admin Registration\obj\Debug\Admin Registration.pdb

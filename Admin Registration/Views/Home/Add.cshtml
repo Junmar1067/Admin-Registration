@@ -5,11 +5,21 @@
 
     @Html.LabelFor(a => a.Id)
     @Html.EditorFor(a => a.Id)
-
+    <br/>
+    @Html.LabelFor(a => a.Username)
+    @Html.EditorFor(a => a.Username)
+    <br/>
+    @Html.LabelFor(a => a.Password)
+    @Html.EditorFor(a => a.Password)
+    <br/>
     @Html.LabelFor(a => a.Name)
     @Html.EditorFor(a => a.Name)
-
+    <br/>
     @Html.LabelFor(a => a.Age)
     @Html.EditorFor(a => a.Age)
+    <br/>
+    @Html.LabelFor(a => a.Address)
+    @Html.EditorFor(a => a.Address)
+}
 
     <input type="submit" value ="Save" />

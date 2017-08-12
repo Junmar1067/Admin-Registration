@@ -6,7 +6,7 @@
 <form method="get" action="@Url.Action("Search", "Home")">
     <label>Search</label>
     <input type="text" name="search" />
-    <button type="submit">Perform search</button>
+    <button type="submit">Search</button>
 </form>
 
 
@@ -21,8 +21,10 @@
     <text>&nbsp;</text>
     @Html.DisplayFor(asdf => item.Age);
     <text>&nbsp;</text>
+    @Html.DisplayFor(asdf => item.Address);
+    <text>&nbsp;</text>
 
-    @Html.ActionLink("Edit", "Edit", new { Id = item.Id})
+    @Html.ActionLink("Edit", "Edit", new { Id = item.Id })
     <text>&nbsp;</text>
 
     @Html.ActionLink("Delete", "Delete", new { Id = item.Id })
