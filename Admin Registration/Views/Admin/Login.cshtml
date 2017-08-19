@@ -1,0 +1,11 @@
+﻿@model  Admin_Registration.Models.Account
+
+@using (Html.BeginForm("Login", "Admin"))
+{
+    @Html.LabelFor(a => a.Username)
+    @Html.EditorFor(a => a.Username)
+    <br/>
+    @Html.LabelFor(a => a.Password)
+    @Html.EditorFor(a => a.Password)
+}
+<input type="submit" value ="Login" />

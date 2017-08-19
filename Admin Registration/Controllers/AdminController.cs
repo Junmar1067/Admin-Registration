@@ -7,7 +7,7 @@ using Admin_Registration.Models;
 
 namespace Admin_Registration.Controllers
 {
-    public class HomeController : Controller
+    public class AdminController : Controller
     {
         //
         // GET: /Home/
@@ -19,7 +19,7 @@ namespace Admin_Registration.Controllers
             {
                 return View(Information.Context.Accounts.Where(a => a.Age.ToString() == search || a.Name == search));
             }
-            // Some comments
+            
             return View(Information.Context.Accounts);
         }
 
@@ -27,44 +27,44 @@ namespace Admin_Registration.Controllers
         {
             return View();
         }
+
         public ActionResult Save(Account acc)
         {
             var selected = Information.Context.Accounts.FirstOrDefault(x => x.Id == acc.Id);
             if (selected != null)
             {
-                //Edit
+                selected.Id = acc.Id;
+                selected.Username = acc.Username; 
+                selected.Password = acc.Password;
                 selected.Name = acc.Name;
                 selected.Age = acc.Age;
+                selected.Address = acc.Address;
             }
             else
             {
-                //Add
-                acc.Id = Information.Context.TagaiKoUgSunodNaId();
+                acc.Id = Information.Context.AssignId();
                 Information.Context.Accounts.Add(acc);
-
             }
+
             return RedirectToAction("Index");
         }
-        public ActionResult Edit(int id)
-        {
 
-            return View(Information.Context.Accounts.FirstOrDefault(x => x.Id == id));
+        public ActionResult Edit(int Id)
+        {
+            return View(Information.Context.Accounts.FirstOrDefault(x => x.Id == Id));
         }
+
         public ActionResult Delete(int id)
         {
             var selected = Information.Context.Accounts.FirstOrDefault(x => x.Id == id);
             if (selected != null)
             {
-                //Remove
                 Information.Context.Accounts.Remove(selected);
-
             }
             return RedirectToAction("Index");
         }
-        public ActionResult Search(string search)
-        {
-            return RedirectToAction("Index", "Home", new { search, id = search });
-        }
 
+        public ActionResult Search()
+      
     }
 }

@@ -1,0 +1,28 @@
+﻿@model  Admin_Registration.Models.Account
+
+@using (Html.BeginForm("Save", "Admin"))
+{
+    <table>
+  <tr>
+    <td>@Html.LabelFor(a => a.Username)</td>
+    <td>@Html.EditorFor(a => a.Username)</td>
+    </tr>
+    <tr>
+    <td>@Html.LabelFor(a => a.Password)</td>
+    <td>@Html.EditorFor(a => a.Password)</td>
+    </tr>
+    <tr>
+    <td>@Html.LabelFor(a => a.Name)</td>
+    <td>@Html.EditorFor(a => a.Name)</td>
+    </tr>
+    <tr>
+    <td>@Html.LabelFor(a => a.Age)</td>
+    <td>@Html.EditorFor(a => a.Age)</td>
+    </tr>
+    <tr>
+    <td>@Html.LabelFor(a => a.Address)</td>
+    <td>@Html.EditorFor(a => a.Address)</td>
+    </tr>
+    </table>
+    <input type="submit" value ="Save" />
+}
